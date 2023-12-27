@@ -1,0 +1,41 @@
+/* Your component's CSS file */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #txt3 {
+    display: inline-block; 
+    position: relative; 
+    text-align: center; 
+    font-size: 44px; 
+    color: red;
+    font-weight: bold;
+  }
+  
+  #txt3::before,
+  #txt3::after {
+    content: ""; /* Create an empty content for the pseudo-elements */
+    position: absolute;
+    bottom: -5px; /* Adjust the vertical position to cover the text */
+    width: 50%; /* Make each line cover half of the container */
+    border-bottom: 2px solid red; /* Add a solid red underline with increased width */
+  }
+  
+  #txt3::before {
+    left: 0; /* Align the left pseudo-element with the left edge of the container */
+  }
+  
+  #txt3::after {
+    right: 0; /* Align the right pseudo-element with the right edge of the container */
+  }
+  #chili1{
+    height:10px;
+    
+  }
+  #chili2{
+    height:10px;
+    transform: rotate(200deg);
+  }

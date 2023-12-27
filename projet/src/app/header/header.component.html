@@ -1,0 +1,18 @@
+<header>
+
+    <img src="https://thevisualcommunicationguy.com/wp-content/uploads/2016/05/Header-Background.jpg" id="Background">
+    <div class="logo-container">
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Chili%27s_Logo.svg/2560px-Chili%27s_Logo.svg.png" alt="Logo">
+    </div>
+    <img id="food1" src="https://images.prismic.io/brinker-chilis/25efdfc9-95bc-482e-b29a-bd28dbad54b5_APPS+OLO+TRIPLE+DIPPER+8.22_6x4.jpg?auto=compress,format&rect=0,0,600,400&w=600&h=400" alt="food1">
+    
+    <h3 id="txt1">Chili's Tunisie</h3>
+   <div>
+     <h3 id="txt2">Découvrer les<br> meilleures recettes<br> syriennes</h3>
+     <input type="button" value="Voir notre menu" id="btn" (click)="navigateToArticles()"/>
+     <div *ngIf="!isLoggedIn">
+     <button routerLink="/login" id="btn">Login</button>
+     <input type="submit" value="Register" id="btn" routerLink="/register" />
+   </div>
+    </div>
+</header>

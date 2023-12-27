@@ -1,0 +1,40 @@
+
+#txt4 {
+    color: #48DD45;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-box {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .img1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add rounded corners to the image */
+  }
+  
+  .foodname {
+    margin-top: 10px;
+    color: red; /* Adjust the color as needed */
+  }
+  
+  .price {
+    color: #48DD45; /* Adjust the color as needed */
+    margin-top: 5px;
+  }
+  a {
+    display: block;
+    text-align: center;
+    color: rgb(227, 66, 66);
+    margin-top: 20px; /* Adjust the margin as needed */
+
+    font-weight: bold; /* Optionally make the text bold */
+  }
+  
